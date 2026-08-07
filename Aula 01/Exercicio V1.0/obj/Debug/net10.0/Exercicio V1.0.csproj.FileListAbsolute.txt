@@ -1,0 +1,14 @@
+C:\DevC\Exercicio V1.0\bin\Debug\net10.0\Exercicio V1.0.exe
+C:\DevC\Exercicio V1.0\bin\Debug\net10.0\Exercicio V1.0.deps.json
+C:\DevC\Exercicio V1.0\bin\Debug\net10.0\Exercicio V1.0.runtimeconfig.json
+C:\DevC\Exercicio V1.0\bin\Debug\net10.0\Exercicio V1.0.dll
+C:\DevC\Exercicio V1.0\bin\Debug\net10.0\Exercicio V1.0.pdb
+C:\DevC\Exercicio V1.0\obj\Debug\net10.0\Exercicio V1.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\DevC\Exercicio V1.0\obj\Debug\net10.0\Exercicio V1.0.AssemblyInfoInputs.cache
+C:\DevC\Exercicio V1.0\obj\Debug\net10.0\Exercicio V1.0.AssemblyInfo.cs
+C:\DevC\Exercicio V1.0\obj\Debug\net10.0\Exercicio V1.0.csproj.CoreCompileInputs.cache
+C:\DevC\Exercicio V1.0\obj\Debug\net10.0\Exercicio V1.0.dll
+C:\DevC\Exercicio V1.0\obj\Debug\net10.0\refint\Exercicio V1.0.dll
+C:\DevC\Exercicio V1.0\obj\Debug\net10.0\Exercicio V1.0.pdb
+C:\DevC\Exercicio V1.0\obj\Debug\net10.0\Exercicio V1.0.genruntimeconfig.cache
+C:\DevC\Exercicio V1.0\obj\Debug\net10.0\ref\Exercicio V1.0.dll
