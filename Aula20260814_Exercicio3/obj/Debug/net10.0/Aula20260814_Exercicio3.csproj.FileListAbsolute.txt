@@ -1,0 +1,15 @@
+C:\Users\ADM\Documents\GitHub\POOII_CSharp\Aula20260814_Exercicio3\obj\Debug\net10.0\Aula20260814_Exercicio3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADM\Documents\GitHub\POOII_CSharp\Aula20260814_Exercicio3\obj\Debug\net10.0\Aula20260814_Exercicio3.AssemblyInfoInputs.cache
+C:\Users\ADM\Documents\GitHub\POOII_CSharp\Aula20260814_Exercicio3\obj\Debug\net10.0\Aula20260814_Exercicio3.AssemblyInfo.cs
+C:\Users\ADM\Documents\GitHub\POOII_CSharp\Aula20260814_Exercicio3\obj\Debug\net10.0\Aula20260814_Exercicio3.csproj.CoreCompileInputs.cache
+C:\Users\ADM\Documents\GitHub\POOII_CSharp\Aula20260814_Exercicio3\obj\Debug\net10.0\Aula20260814_Exercicio3.sourcelink.json
+C:\Users\ADM\Documents\GitHub\POOII_CSharp\Aula20260814_Exercicio3\bin\Debug\net10.0\Aula20260814_Exercicio3.exe
+C:\Users\ADM\Documents\GitHub\POOII_CSharp\Aula20260814_Exercicio3\bin\Debug\net10.0\Aula20260814_Exercicio3.deps.json
+C:\Users\ADM\Documents\GitHub\POOII_CSharp\Aula20260814_Exercicio3\bin\Debug\net10.0\Aula20260814_Exercicio3.runtimeconfig.json
+C:\Users\ADM\Documents\GitHub\POOII_CSharp\Aula20260814_Exercicio3\bin\Debug\net10.0\Aula20260814_Exercicio3.dll
+C:\Users\ADM\Documents\GitHub\POOII_CSharp\Aula20260814_Exercicio3\bin\Debug\net10.0\Aula20260814_Exercicio3.pdb
+C:\Users\ADM\Documents\GitHub\POOII_CSharp\Aula20260814_Exercicio3\obj\Debug\net10.0\Aula20260814_Exercicio3.dll
+C:\Users\ADM\Documents\GitHub\POOII_CSharp\Aula20260814_Exercicio3\obj\Debug\net10.0\refint\Aula20260814_Exercicio3.dll
+C:\Users\ADM\Documents\GitHub\POOII_CSharp\Aula20260814_Exercicio3\obj\Debug\net10.0\Aula20260814_Exercicio3.pdb
+C:\Users\ADM\Documents\GitHub\POOII_CSharp\Aula20260814_Exercicio3\obj\Debug\net10.0\Aula20260814_Exercicio3.genruntimeconfig.cache
+C:\Users\ADM\Documents\GitHub\POOII_CSharp\Aula20260814_Exercicio3\obj\Debug\net10.0\ref\Aula20260814_Exercicio3.dll
