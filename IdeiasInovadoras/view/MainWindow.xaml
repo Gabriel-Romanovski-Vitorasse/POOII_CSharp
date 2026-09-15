@@ -1,0 +1,23 @@
+﻿<Window x:Class="IdeiasInovadoras.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IdeiasInovadoras"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Área de atuação:&#xD;&#xA;" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="40,40,0,0" VerticalAlignment="Top"/>
+        <Label Content="Descreva aqui a sua ideia:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="40,82,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextBoxArea" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="153,43,0,0" TextWrapping="Wrap" Text="Digite aqui" VerticalAlignment="Top" Width="360"/>
+        <TextBox x:Name="TextBoxIdeia" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="53,127,0,0" TextWrapping="Wrap" Text="Digite aqui" VerticalAlignment="Top" Width="460" Height="90"/>
+        <Label Content="Custo:" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="51,251,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextBoxCusto" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="99,255,0,0" TextWrapping="Wrap" Text="Digite aqui" VerticalAlignment="Top" Width="301"/>
+        <Button Content="Cadastrar" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="430,253,0,0" VerticalAlignment="Top" Width="83" Click="Button_Click" RenderTransformOrigin="0.451,-0.798"/>
+
+    </Grid>
+</Window>
