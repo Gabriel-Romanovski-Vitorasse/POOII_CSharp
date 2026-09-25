@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alunolab13\\source\\repos\\IdeiasInovadoras\\IdeiasInovadoras.csproj": {}
+    "C:\\Users\\ADM\\OneDrive\\Documentos\\GitHub\\POOII_CSharp\\IdeiasInovadoras\\IdeiasInovadoras.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alunolab13\\source\\repos\\IdeiasInovadoras\\IdeiasInovadoras.csproj": {
+    "C:\\Users\\ADM\\OneDrive\\Documentos\\GitHub\\POOII_CSharp\\IdeiasInovadoras\\IdeiasInovadoras.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alunolab13\\source\\repos\\IdeiasInovadoras\\IdeiasInovadoras.csproj",
+        "projectUniqueName": "C:\\Users\\ADM\\OneDrive\\Documentos\\GitHub\\POOII_CSharp\\IdeiasInovadoras\\IdeiasInovadoras.csproj",
         "projectName": "IdeiasInovadoras",
-        "projectPath": "C:\\Users\\alunolab13\\source\\repos\\IdeiasInovadoras\\IdeiasInovadoras.csproj",
-        "packagesPath": "C:\\Users\\alunolab13\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alunolab13\\source\\repos\\IdeiasInovadoras\\obj\\",
+        "projectPath": "C:\\Users\\ADM\\OneDrive\\Documentos\\GitHub\\POOII_CSharp\\IdeiasInovadoras\\IdeiasInovadoras.csproj",
+        "packagesPath": "C:\\Users\\ADM\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADM\\OneDrive\\Documentos\\GitHub\\POOII_CSharp\\IdeiasInovadoras\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\PROGRAMAS\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\alunolab13\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADM\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

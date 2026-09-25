@@ -15,9 +15,9 @@ namespace WpfApp1.control
             return modeloii.RecuperarTodasII();
         }
 
-        public UVVkedin? ControleRecuperarIIPeloID(int id)
+        public UVVkedin? ControleRecuperarIIPeloEmail(string email)
         {
-            return modeloii.RecuperarIIPeloID(id);
+            return modeloii.RecuperarIIPeloEmail(email);
         }
 
         public Boolean ControlCadastrarII(String apelido, string email, string telefone)

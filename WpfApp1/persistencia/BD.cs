@@ -18,11 +18,11 @@ namespace WpfApp1.persistencia
             mybd.Add(ii);
         }
 
-        public static UVVkedin? RetornarBDPeloID(int id)
+        public static UVVkedin? RetornarBDPeloEmail(string email)
         {
 
             UVVkedin? objRetornado;
-            objRetornado = mybd.Find(x => { return x.Id == id; });
+            objRetornado = mybd.Find(x => { return x.Email == email; });
 
             return objRetornado;
         }

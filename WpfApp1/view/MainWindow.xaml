@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <DataGrid Margin="10,10,470,200"/>
-        <Button Content="Listar Todos" HorizontalAlignment="Left" Margin="236,259,0,0" VerticalAlignment="Top" Width="94" Height="30"/>
+        <DataGrid x:Name="DataGridUVVkedin" Margin="10,10,470,200"/>
+        <Button x:Name="Button_Listar" Content="Listar Todos" HorizontalAlignment="Left" Margin="236,259,0,0" VerticalAlignment="Top" Width="94" Height="30" Click="Button_Listar_Click"/>
         <Label Content="Rede de Amigos" HorizontalAlignment="Left" Margin="524,30,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.356,-0.574"/>
         <Label Content="Apelido: " HorizontalAlignment="Center" Margin="0,72,0,0" VerticalAlignment="Top"/>
         <Label Content="Telefone: " HorizontalAlignment="Center" Margin="0,133,0,0" VerticalAlignment="Top"/>

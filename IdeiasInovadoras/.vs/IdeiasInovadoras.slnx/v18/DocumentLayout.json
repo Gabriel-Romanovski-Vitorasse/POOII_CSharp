@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADM\\OneDrive\\Documentos\\GitHub\\POOII_CSharp\\IdeiasInovadoras\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19270E2F-A2C3-ED13-3360-DC83B3088892}|IdeiasInovadoras.csproj|c:\\users\\adm\\onedrive\\documentos\\github\\pooii_csharp\\ideiasinovadoras\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{19270E2F-A2C3-ED13-3360-DC83B3088892}|IdeiasInovadoras.csproj|solutionrelative:view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Documentos\\GitHub\\POOII_CSharp\\IdeiasInovadoras\\view\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "view\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Documentos\\GitHub\\POOII_CSharp\\IdeiasInovadoras\\view\\MainWindow.xaml",
+              "RelativeToolTip": "view\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-15T21:59:22.78Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

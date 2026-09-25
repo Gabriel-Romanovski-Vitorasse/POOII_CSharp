@@ -17,9 +17,9 @@ namespace WpfApp1.model
             return BD.RetornarBD();
         }
 
-        public UVVkedin? RecuperarIIPeloID(int id)
+        public UVVkedin? RecuperarIIPeloEmail(string email)
         {
-            return BD.RetornarBDPeloID(id);
+            return BD.RetornarBDPeloEmail(email);
         }
 
         public Boolean CadastrarII(UVVkedin ii)
