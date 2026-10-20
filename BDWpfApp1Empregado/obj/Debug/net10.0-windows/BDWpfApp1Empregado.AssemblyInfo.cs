@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BDWpfApp1Empregado")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67dd075c870a93b3817b6dae63f479051be660b5")]
 [assembly: System.Reflection.AssemblyProductAttribute("BDWpfApp1Empregado")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BDWpfApp1Empregado")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

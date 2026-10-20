@@ -1,6 +1,7 @@
 ﻿using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlTypes;
 using System.Text;
 
@@ -43,6 +44,39 @@ namespace BDWpfApp1Empregado.Model
         public List<Empregado>? Pesquisar(int matriculaParam, SqlConnection conexao) {
             Console.WriteLine("== Recuperando Empregado ==");
             List<Empregado>? EmpregadoSLido = null;
+
+            var Cmd = conexao.CreateCommand();
+
+            if(matriculaParam == 0)
+            {
+                Cmd.CommandText = "SELECT * FROM Empregado";
+            }
+            else
+            {
+                Cmd.CommandText = "SELECT * FROM Empregado WHERE Matricula = @matricula";
+                Cmd.Parameters.Add(new SqlParameter("matricula", matriculaParam));
+            }
+
+            var resultado = Cmd.ExecuteReader();
+
+            if(resultado != null)
+            {
+                EmpregadoSLido = new();
+
+                while (resultado.Read())
+                {
+                    Empregado EmpregadoLido = new()
+                    {
+                        Matricula = resultado.GetInt32("Matricula"),
+                        CPF = resultado.GetString("CPF"),
+                        Nome = resultado.GetString("Nome"),
+                        Endereco = resultado.GetString("Endereco")
+                    };
+                    EmpregadoSLido.Add(EmpregadoLido);
+                }
+                resultado.Close();
+            }
+            return EmpregadoSLido;
         }
         public void Excluir() { }
         public void Alterar() { }
