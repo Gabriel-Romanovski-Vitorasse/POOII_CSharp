@@ -40,7 +40,10 @@ namespace BDWpfApp1Empregado.Model
                 Cmd.ExecuteNonQuery();
             }
         }
-        public void Pesquisar() { }
+        public List<Empregado>? Pesquisar(int matriculaParam, SqlConnection conexao) {
+            Console.WriteLine("== Recuperando Empregado ==");
+            List<Empregado>? EmpregadoSLido = null;
+        }
         public void Excluir() { }
         public void Alterar() { }
     }

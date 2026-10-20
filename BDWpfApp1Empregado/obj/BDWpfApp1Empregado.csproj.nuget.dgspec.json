@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alunolab13\\source\\repos\\BDWpfApp1Empregado\\BDWpfApp1Empregado.csproj": {}
+    "C:\\Users\\sistemalab\\Downloads\\POOII_CSharp-main\\POOII_CSharp-main\\BDWpfApp1Empregado\\BDWpfApp1Empregado.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alunolab13\\source\\repos\\BDWpfApp1Empregado\\BDWpfApp1Empregado.csproj": {
+    "C:\\Users\\sistemalab\\Downloads\\POOII_CSharp-main\\POOII_CSharp-main\\BDWpfApp1Empregado\\BDWpfApp1Empregado.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alunolab13\\source\\repos\\BDWpfApp1Empregado\\BDWpfApp1Empregado.csproj",
+        "projectUniqueName": "C:\\Users\\sistemalab\\Downloads\\POOII_CSharp-main\\POOII_CSharp-main\\BDWpfApp1Empregado\\BDWpfApp1Empregado.csproj",
         "projectName": "BDWpfApp1Empregado",
-        "projectPath": "C:\\Users\\alunolab13\\source\\repos\\BDWpfApp1Empregado\\BDWpfApp1Empregado.csproj",
-        "packagesPath": "C:\\Users\\alunolab13\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alunolab13\\source\\repos\\BDWpfApp1Empregado\\obj\\",
+        "projectPath": "C:\\Users\\sistemalab\\Downloads\\POOII_CSharp-main\\POOII_CSharp-main\\BDWpfApp1Empregado\\BDWpfApp1Empregado.csproj",
+        "packagesPath": "C:\\Users\\sistemalab\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sistemalab\\Downloads\\POOII_CSharp-main\\POOII_CSharp-main\\BDWpfApp1Empregado\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\PROGRAMAS\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\alunolab13\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sistemalab\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.400"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0-windows": {
@@ -80,7 +80,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

@@ -67,5 +67,10 @@ namespace BDWpfApp1Empregado
             TextBoxMatricula.Text = ""; TextBoxCPF.Text = "";
             TextBoxNome.Text = ""; TextBoxEndereco.Text = "";
         }
+
+        private void ButtonPesquisar_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
