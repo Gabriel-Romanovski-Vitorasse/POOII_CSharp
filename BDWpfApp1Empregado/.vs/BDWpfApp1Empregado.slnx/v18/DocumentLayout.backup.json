@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\ADM\\OneDrive\\Documentos\\GitHub\\POOII_CSharp\\BDWpfApp1Empregado\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10671617-7D64-B262-AC34-A91AD124DFCE}|BDWpfApp1Empregado.csproj|c:\\users\\adm\\onedrive\\documentos\\github\\pooii_csharp\\bdwpfapp1empregado\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{10671617-7D64-B262-AC34-A91AD124DFCE}|BDWpfApp1Empregado.csproj|solutionrelative:view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{10671617-7D64-B262-AC34-A91AD124DFCE}|BDWpfApp1Empregado.csproj|c:\\users\\adm\\onedrive\\documentos\\github\\pooii_csharp\\bdwpfapp1empregado\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10671617-7D64-B262-AC34-A91AD124DFCE}|BDWpfApp1Empregado.csproj|solutionrelative:view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,8 +11,16 @@
       "RelativeMoniker": "D:0:0:{10671617-7D64-B262-AC34-A91AD124DFCE}|BDWpfApp1Empregado.csproj|solutionrelative:model\\empregado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{10671617-7D64-B262-AC34-A91AD124DFCE}|BDWpfApp1Empregado.csproj|c:\\users\\adm\\onedrive\\documentos\\github\\pooii_csharp\\bdwpfapp1empregado\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{10671617-7D64-B262-AC34-A91AD124DFCE}|BDWpfApp1Empregado.csproj|solutionrelative:view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{10671617-7D64-B262-AC34-A91AD124DFCE}|BDWpfApp1Empregado.csproj|c:\\users\\adm\\onedrive\\documentos\\github\\pooii_csharp\\bdwpfapp1empregado\\persistencia\\dbo.empregado.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{10671617-7D64-B262-AC34-A91AD124DFCE}|BDWpfApp1Empregado.csproj|solutionrelative:persistencia\\dbo.empregado.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10671617-7D64-B262-AC34-A91AD124DFCE}|BDWpfApp1Empregado.csproj|c:\\users\\adm\\onedrive\\documentos\\github\\pooii_csharp\\bdwpfapp1empregado\\control\\empregadocontrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10671617-7D64-B262-AC34-A91AD124DFCE}|BDWpfApp1Empregado.csproj|solutionrelative:control\\empregadocontrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10671617-7D64-B262-AC34-A91AD124DFCE}|BDWpfApp1Empregado.csproj|c:\\users\\adm\\onedrive\\documentos\\github\\pooii_csharp\\bdwpfapp1empregado\\persistencia\\dbo.empregado.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
@@ -30,42 +34,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "EmpregadoControle.cs",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Documentos\\GitHub\\POOII_CSharp\\BDWpfApp1Empregado\\Control\\EmpregadoControle.cs",
+              "RelativeDocumentMoniker": "Control\\EmpregadoControle.cs",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Documentos\\GitHub\\POOII_CSharp\\BDWpfApp1Empregado\\Control\\EmpregadoControle.cs",
+              "RelativeToolTip": "Control\\EmpregadoControle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T02:11:47.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Documentos\\GitHub\\POOII_CSharp\\BDWpfApp1Empregado\\view\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "view\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Documentos\\GitHub\\POOII_CSharp\\BDWpfApp1Empregado\\view\\MainWindow.xaml",
-              "RelativeToolTip": "view\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Documentos\\GitHub\\POOII_CSharp\\BDWpfApp1Empregado\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "View\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Documentos\\GitHub\\POOII_CSharp\\BDWpfApp1Empregado\\View\\MainWindow.xaml",
+              "RelativeToolTip": "View\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-10-20T19:04:56.862Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Documentos\\GitHub\\POOII_CSharp\\BDWpfApp1Empregado\\view\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "view\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Documentos\\GitHub\\POOII_CSharp\\BDWpfApp1Empregado\\view\\MainWindow.xaml.cs",
-              "RelativeToolTip": "view\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAIAwwGMAAAAbAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Documentos\\GitHub\\POOII_CSharp\\BDWpfApp1Empregado\\View\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "View\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Documentos\\GitHub\\POOII_CSharp\\BDWpfApp1Empregado\\View\\MainWindow.xaml.cs",
+              "RelativeToolTip": "View\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAswI8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-20T19:05:02.299Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Empregado.cs",
               "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Documentos\\GitHub\\POOII_CSharp\\BDWpfApp1Empregado\\Model\\Empregado.cs",
               "RelativeDocumentMoniker": "Model\\Empregado.cs",
               "ToolTip": "C:\\Users\\ADM\\OneDrive\\Documentos\\GitHub\\POOII_CSharp\\BDWpfApp1Empregado\\Model\\Empregado.cs",
               "RelativeToolTip": "Model\\Empregado.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAuwC8AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAYwGMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-20T22:27:54.048Z",
               "EditorCaption": ""

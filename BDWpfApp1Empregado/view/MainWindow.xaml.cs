@@ -99,5 +99,48 @@ namespace BDWpfApp1Empregado
             }
             LimparCampos();
         }
+
+        private void ButtonExcluir_Click(object sender, RoutedEventArgs e)
+        {
+            Empregado emp = new();
+
+            if(conexao != null)
+            {
+                if(TextBoxMatricula.Text != "")
+                {
+                    emp.Excluir(int.Parse(TextBoxMatricula.Text), conexao);
+                    LabelStatus.Content = "Exclusão OK";
+                }
+                else
+                {
+                    LabelStatus.Content = "Exclusão NOT";
+                }
+            }
+        }
+
+        private void ButtonLimpar_Click(object sender, RoutedEventArgs e)
+        {
+            if (conexao != null)
+            {
+                if (!string.IsNullOrWhiteSpace(TextBoxMatricula.Text))
+                {
+                    LabelStatus.Content = "Deixe a matrícula vazia para limpar tudo";
+                }
+
+                var resposta = MessageBox.Show(
+                    "Isso apagará TODOS os empregados. Deseja continuar?",
+                    "Confirmar limpeza",
+                    MessageBoxButton.YesNo,
+                    MessageBoxImage.Warning);
+
+                if (resposta != MessageBoxResult.Yes) return;
+
+                Empregado emp = new();
+                emp.Limpar(conexao);
+                LabelStatus.Content = "Limpeza OK";
+                emp.Resetar(conexao);
+            }
+        }
+
     }
 }

@@ -22,8 +22,8 @@
             <Grid>
                 <Button x:Name="ButtonPesquisar" Content="Pesquisar" HorizontalAlignment="Center" Margin="0,4,0,0" VerticalAlignment="Top" Width="84" Click="ButtonPesquisar_Click"/>
                 <Button x:Name="ButtonSalvar" Content="Salvar" HorizontalAlignment="Center" Margin="0,29,0,0" VerticalAlignment="Top" Width="84" Click="ButtonSalvar_Click"/>
-                <Button x:Name="ButtonExcluir" Content="Excluir" HorizontalAlignment="Center" Margin="0,54,0,0" VerticalAlignment="Top" Width="84"/>
-                <Button x:Name="ButtonLimpar" Content="Limpar" HorizontalAlignment="Center" Margin="0,80,0,0" VerticalAlignment="Top" Width="84"/>
+                <Button x:Name="ButtonExcluir" Content="Excluir" HorizontalAlignment="Center" Margin="0,54,0,0" VerticalAlignment="Top" Width="84" Click="ButtonExcluir_Click"/>
+                <Button x:Name="ButtonLimpar" Content="Limpar" HorizontalAlignment="Center" Margin="0,80,0,0" VerticalAlignment="Top" Width="84" Click="ButtonLimpar_Click"/>
             </Grid>
         </Border>
 

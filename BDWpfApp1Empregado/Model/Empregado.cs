@@ -78,8 +78,22 @@ namespace BDWpfApp1Empregado.Model
             }
             return EmpregadoSLido;
         }
-        public void Excluir() { }
-        public void Alterar() { }
+        public void Excluir(int matriculaParam, SqlConnection conexao) {
+            var Cmd = conexao.CreateCommand();
+            Cmd.CommandText = "DELETE FROM Empregado WHERE matricula = @matricula";
+            Cmd.Parameters.Add(new SqlParameter("matricula", matriculaParam));
+        }
+        public void Limpar(SqlConnection conexao) {
+            var Cmd = conexao.CreateCommand();
+            Cmd.CommandText = "DELETE FROM Empregado";
+            Cmd.ExecuteNonQuery();
+        }
+        public void Resetar(SqlConnection conexao)
+        {
+            var Cmd = conexao.CreateCommand();
+            Cmd.CommandText = "DBCC CHECKIDENT ('Empregado', RESEED, 0)";
+            Cmd.ExecuteNonQuery();
+        }
     }
 
 }
