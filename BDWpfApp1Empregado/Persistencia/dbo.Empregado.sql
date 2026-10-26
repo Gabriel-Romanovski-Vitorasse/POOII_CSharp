@@ -19,4 +19,11 @@ CREATE TABLE [dbo].[Empregado] (
     CONSTRAINT [PK_Empregado] PRIMARY KEY CLUSTERED ([Matricula] ASC)
 );
 
+GO
 
+CREATE TABLE [dbo].[DEPT] (
+    [ID] INT            IDENTITY (1, 1) NOT NULL,
+    [Name]       NVARCHAR (MAX) NULL,
+    [Email]      NVARCHAR (MAX) NULL,
+    CONSTRAINT [PK_Empregado] PRIMARY KEY CLUSTERED ([ID] ASC)
+);
