@@ -1,4 +1,6 @@
-﻿using BDWpfApp1Empregado.Model;
+﻿using BDWpfApp1Empregado.Control;
+using BDWpfApp1Empregado.Model;
+using BDWpfApp1Empregado.View;
 using Microsoft.Data.SqlClient;
 using System.ComponentModel;
 using System.Text;
@@ -17,7 +19,7 @@ namespace BDWpfApp1Empregado
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : Window, IVerificar_LimparCampos
     {
         SqlConnection? conexao = null;
         BindingList<Empregado> objClasseListDataGridEmpregado = new();
@@ -59,7 +61,7 @@ namespace BDWpfApp1Empregado
             }
             
         }
-        private bool VerificarCampos()
+        public bool VerificarCampos()
         {
             return TextBoxMatricula.Text == "" &&
                 TextBoxCPF.Text != "" &&
@@ -67,7 +69,7 @@ namespace BDWpfApp1Empregado
                 TextBoxEndereco.Text != "";
         }
 
-        private void LimparCampos()
+        public void LimparCampos()
         {
             TextBoxMatricula.Text = ""; TextBoxCPF.Text = "";
             TextBoxNome.Text = ""; TextBoxEndereco.Text = "";
@@ -142,5 +144,11 @@ namespace BDWpfApp1Empregado
             }
         }
 
+        private void ButtonTrocar_Click(object sender, RoutedEventArgs e)
+        {
+            var dept = new DeptInterface();
+            dept.Show();   // abre a DEPT
+            this.Close();  // fecha a atual (ou remova para manter as duas abertas)
+        }
     }
 }

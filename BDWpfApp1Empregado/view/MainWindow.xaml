@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BDWpfApp1Empregado"
         mc:Ignorable="d"
-        Title="MainWindow" Height="420" Width="450">
+        Title="MainWindow" Height="440" Width="450">
     <Grid>
         <Label Content="Dados do Empregado" HorizontalAlignment="Left" Margin="21,23,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
         <Label Content="Matricula" HorizontalAlignment="Left" Margin="21,62,0,0" VerticalAlignment="Top"/>
-        <Label Content="CPF" HorizontalAlignment="Left" Margin="22,87,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.267,0.31"/>
+        <Label Content="CPF" HorizontalAlignment="Left" Margin="22,87,0,0" VerticalAlignment="Top"/>
         <Label Content="Nome" HorizontalAlignment="Left" Margin="21,111,0,0" VerticalAlignment="Top"/>
         <Label Content="Endereço" HorizontalAlignment="Left" Margin="21,138,0,0" VerticalAlignment="Top"/>
 
@@ -18,16 +18,18 @@
         <TextBox x:Name="TextBoxNome" HorizontalAlignment="Left" Margin="85,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213"/>
         <TextBox x:Name="TextBoxEndereco" HorizontalAlignment="Left" Margin="85,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213" Height="42"/>
 
-        <Border BorderBrush="Black" BorderThickness="1" CornerRadius="5" Padding="5" Margin="0,66,10,0" Height="119" VerticalAlignment="Top" HorizontalAlignment="Right" Width="109">
-            <Grid>
-                <Button x:Name="ButtonPesquisar" Content="Pesquisar" HorizontalAlignment="Center" Margin="0,4,0,0" VerticalAlignment="Top" Width="84" Click="ButtonPesquisar_Click"/>
-                <Button x:Name="ButtonSalvar" Content="Salvar" HorizontalAlignment="Center" Margin="0,29,0,0" VerticalAlignment="Top" Width="84" Click="ButtonSalvar_Click"/>
-                <Button x:Name="ButtonExcluir" Content="Excluir" HorizontalAlignment="Center" Margin="0,54,0,0" VerticalAlignment="Top" Width="84" Click="ButtonExcluir_Click"/>
-                <Button x:Name="ButtonLimpar" Content="Limpar" HorizontalAlignment="Center" Margin="0,80,0,0" VerticalAlignment="Top" Width="84" Click="ButtonLimpar_Click"/>
-            </Grid>
+        <Border BorderBrush="Black" BorderThickness="1" CornerRadius="5" Padding="5"
+                Margin="0,66,10,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="109">
+            <StackPanel>
+                <Button x:Name="ButtonPesquisar" Content="Pesquisar" Margin="0,0,0,4" Click="ButtonPesquisar_Click"/>
+                <Button x:Name="ButtonSalvar" Content="Salvar" Margin="0,0,0,4" Click="ButtonSalvar_Click"/>
+                <Button x:Name="ButtonExcluir" Content="Excluir" Margin="0,0,0,4" Click="ButtonExcluir_Click"/>
+                <Button x:Name="ButtonLimpar" Content="Limpar" Margin="0,0,0,4" Click="ButtonLimpar_Click"/>
+                <Button x:Name="ButtonTrocar" Content="Trocar" Click="ButtonTrocar_Click"/>
+            </StackPanel>
         </Border>
 
-        <DataGrid x:Name="DataGridEmpregadoList" Margin="0,201,0,0" ColumnWidth="*" CanUserAddRows="False"/>
+        <DataGrid x:Name="DataGridEmpregadoList" Margin="0,225,0,0" ColumnWidth="*" CanUserAddRows="False"/>
         <Label x:Name="LabelStatus" Content="Status" HorizontalAlignment="Left" Margin="334,3,0,0" VerticalAlignment="Top" Width="96"/>
     </Grid>
 </Window>
